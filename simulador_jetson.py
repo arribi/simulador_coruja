@@ -3,7 +3,7 @@ import time
 import random
 
 # Esta es la dirección de nuestra futura API en Node.js 
-API_URL = "http://localhost:3001/api/detecciones"
+API_URL = "http://coruja-backend.onrender.com/api/detecciones"
 
 def simular_vuelo():
     print("Iniciando simulador de la NVIDIA Jetson del dron...")

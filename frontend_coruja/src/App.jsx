@@ -6,7 +6,7 @@ function App() {
   // Función para pedir los datos al backend
   const obtenerDatos = async () => {
     try {
-      const respuesta = await fetch('http://localhost:3001/api/detecciones');
+      const respuesta = await fetch('https://coruja-backend.onrender.com/api/detecciones');
       const datos = await respuesta.json();
       setDetecciones(datos);
     } catch (error) {
